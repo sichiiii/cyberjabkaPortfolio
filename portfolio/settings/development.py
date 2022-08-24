@@ -9,3 +9,7 @@ base_settings = [
 ]
 settings.extend(base_settings)
 include(*settings)
+
+# Configure Django App for Heroku.
+import django_on_heroku
+django_on_heroku.settings(locals())
