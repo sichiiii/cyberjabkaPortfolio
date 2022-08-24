@@ -555,6 +555,7 @@ a.btn:hover {
 .portfolio-section .item-inner {
   background: #2196F3;
   color: #fff;
+  margin-left: auto;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
